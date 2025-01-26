@@ -6,19 +6,19 @@
     "port": 9010, 
     "secret": "", 
     "status_list": [ 
-        { // status: 0
+        { 
             "id": 0,
             "name": "活着", 
             "desc": "目前在线，可以通过任何可用的联系方式联系本人。",
             "color": "awake"
         },
-        { // status: 1
+        { 
             "id": 1,
             "name": "似了",
             "desc": "睡似了或其他原因不在线，紧急情况请使用电话联系。",
             "color": "sleeping"
             
-        { // status: 2
+        { 
             "id": 2,
             "name": "学习",
             "desc": "因为学习不在线，紧急情况请使用电话联系。",
@@ -26,17 +26,17 @@
         }
         
     ],
-    "refresh": 5000, // 网页多久刷新一次状态 (毫秒)
-    "data_check_interval": 30, // 多久检查一次 data.json 是否有更改 (秒)
-    "other": { // 其他配置 (网页上的信息)
-        "user": "User", // 你的名字
-        "background": "https://imgapi.siiway.top/image", // 背景图片 url
-        // 推荐 repo: [siiway/imgapi](https://github.com/siiway/imgapi)
-        "alpha": 0.85, // 卡片不透明度设置 (0 ~ 1), 0 为完全透明, 1 为完全不透明
-        "learn_more": "GitHub Repo", // 更多信息链接的提示, 默认为 github repo
-        "repo": "https://github.com/wyf9/sleepy", // 更多信息链接的目标, 默认为存储库链接
-        "more_text": "", // 内容将在状态页底部 learn_more 上方插入 (不转义)
-        // ps: 可以在这里放你联系方式的链接
-        "device_status_slice": 30 // 设备状态从开头截取多少文字显示 (防止窗口标题过长, 设置为 0 禁用)
+    "refresh": 5000, 
+    "data_check_interval": 30, 
+    "other": { 
+        "user": "User", 
+        "background": "https://imgapi.siiway.top/image", 
+        
+        "alpha": 0.85, 
+        "learn_more": "GitHub Repo", 
+        "repo": "https://github.com/wyf9/sleepy", 
+        "more_text": "", 
+        
+        "device_status_slice": 30 
     }
 }
