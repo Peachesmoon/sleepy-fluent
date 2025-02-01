@@ -6,7 +6,7 @@ Co-authored-by: NyaOH-Nahida - 新增捕捉退出事件，将退出脚本状态�
 */
 
 // config start
-const API_URL = 'https://example.com/device/set'; // 你的完整 API 地址，以 `/device/set` 结尾
+const API_URL = 'https://sleepy.moonpeaches.com:9010/device/set'; // 你的完整 API 地址，以 `/device/set` 结尾
 const SECRET = '绝对猜不出来的密钥'; // 你的 secret
 const ID = '设备ID'; // 你的设备 id
 const SHOW_NAME = '设备名称'; // 你的设备名称
